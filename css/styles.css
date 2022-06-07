@@ -1,0 +1,222 @@
+.main-container {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.alert-container {  
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: #fafafac8;
+    height: 100vh;
+    width: 100%;
+    color: #0b0b0b;
+    font-size: 20px;
+    padding: 10%;
+}
+
+/*********************** HEADER ***********************/
+.portfolio-header {
+    background-image: url('../img/Background.jpg');
+    background-size: cover;
+}
+
+.portfolio-name {
+    font-family: 'Alice', serif;
+    font-size: 50px;
+}
+
+.alex-profile {
+    width: 150px;
+    border-radius: 100px;
+    border: solid rgba(0, 0, 0, 0.05) 10px;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+}
+
+/*********************** MAIN ***********************/
+.main {
+    margin: 0 20%;
+}
+
+.portfolio-section {
+    margin: 5% 0 5% 0;
+}
+
+.section-title, .entry-title {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  margin: 0px 0 25px;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-size: 2.25rem;
+  letter-spacing: 1px;
+}
+
+.section-title span, .entry-title span {
+  display: inline-block;
+  position: relative;
+}
+
+.section-title span:before, .entry-title span:before,
+.section-title span:after, .entry-title span:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: .53em;
+  width: 400%;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+
+.section-title span:before, .entry-title span:before {
+  right: 100%;
+  margin-right: 45px;
+}
+
+.section-title span:after, .entry-title span:after {
+  left: 100%;
+  margin-left: 45px;
+}
+
+/*********************** PROJECTS SECTION ***********************/
+
+
+
+/*********************** TECHOLOGIES SECTION ***********************/
+.technologies-img {
+    width: 98%;   
+}
+
+
+/*********************** FOOTER ***********************/
+#footer {
+    background: #232323;
+    font-size: 12px;
+    color: #999;
+  }
+#footer a {
+    color: #ccc;
+}
+#footer a:hover {
+    color: #1a8dcb;
+}
+
+
+#footer h3.widget-title {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    color: #ccc;
+    margin: 0 0 20px;
+}
+#underfooter {
+    background: #191919;
+    color: #777;
+    font-size: 12px;
+    padding: 15px 0;
+}
+#underfooter .designer {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+#underfooter a {
+    color: #aaa;
+}
+#underfooter a:hover {
+    color: #fff;
+}
+#underfooter p {
+    margin: 0;
+}
+.follow-me-icons {
+    font-size: 30px;
+}
+.follow-me-icons i {
+    margin: 0 10px 0 0;
+}
+
+
+/*********************** ABOUT ***********************/
+.sidebar .nav a {
+    float: right;
+    font-size: 25px;
+    color: #99b4c5;
+}
+
+.sidebar .nav a:hover {
+    color: #556a77;
+}
+
+.about-text {
+    text-align: justify;
+    color: #666666;
+}
+
+.about-img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-titles {
+    color: #7da1b7;
+    text-decoration: none;
+}
+
+.experience, .skills, .certifications {
+    margin-top: 50px;
+}
+
+.certifications-link {
+    color: #666;
+    text-decoration: none;
+}
+
+.certifications-link:hover {
+    color: #666;
+    text-decoration: underline;
+}
+
+.about-titles:hover {
+    color: #7da1b7;
+}
+
+/*********************** PROJECTS ***********************/
+.maincontent img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.maincontent .project-description {
+    color: #666;
+    text-align: justify;
+    padding: 20px 0;
+}
+
+/*********************** BLOG ***********************/
+.blog {
+    height: 40vh;
+}
+
+.blog .date {
+    font-family: Georgia, serif;
+    color: #777;
+}
+
+/*********************** MEDIA QUERIES ***********************/
+@media screen and (max-width: 1100px) {
+    .main-container {
+        display: none;
+    }
+
+    .alert-container {
+        display: flex;
+    }
+}
